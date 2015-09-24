@@ -63,14 +63,16 @@ nav li a:hover {
 }
 
 #hero {
-	background: url(../images/mountains.png) no-repeat bottom left;
+	background: url(../images/mountains.jpg) no-repeat bottom left;
 	text-align: center;
 	color: #fafafa;
 	background-size: cover;
 	height: 350px;
 	padding: 25px 0;
 }
-
+.teamname{
+    background: black;
+}
 #hero img {
 	width: 150px; 
 	border-radius: 50%;
