@@ -67,14 +67,13 @@ nav li a:hover {
 	text-align: center;
 	color: #fafafa;
 	background-size: cover;
-	height: 350px;
+	height: 425px;
 	padding: 25px 0;
 }
 .teamname{
     background: black;
 }
 #hero img {
-	width: 150px; 
 	border-radius: 50%;
     margin-top: 30px;
 }
@@ -164,4 +163,7 @@ footer li {
 	float: left;
 	width: auto;
 	padding: 20px;
+}
+.team{
+    font-size: 0.7em
 }
