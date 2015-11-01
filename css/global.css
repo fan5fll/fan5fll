@@ -4,11 +4,15 @@ html, body {
 }
 
 body {color: #333; 
-    font-family: helvetica, arial, sans-serif;
+    font-family: times  , arial, sans-serif;
 }
 
 p {
     line-height: 20px;
+}
+
+.mica-paragraph {
+    text-align: left;
 }
 
 header {
@@ -166,4 +170,7 @@ footer li {
 }
 .team{
     font-size: 0.7em
+}
+.text-center{
+    text-align: center;
 }
