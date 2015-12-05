@@ -83,7 +83,18 @@ nav li a:hover {
     66% {border: dashed green 7px;}
     100%{border: dashed blue 7px;transform: rotateZ(-5deg)}        
 }
+.no-spinny:hover {
+    animation-name: none !important;  
+}
 
+
+.weird-color-gradient { 
+    background: linear-gradient(to bottom, rgba(250,15,15,1) 0%, rgba(163,8,120,1) 14%, rgba(51,0,255,1) 32%, rgba(255,255,0,1) 63%, rgba(225,179,76,1) 74%, rgba(153,0,255,1) 100%);
+}
+
+.team {
+
+}
 #hero {
 	background: url(../images/mountains.jpg) no-repeat bottom left;
 	text-align: center;
@@ -178,6 +189,23 @@ footer {
     padding: 25px 0;
     text-align: center;
     overflow: hidden;
+    //  position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.split-half {
+    width: 50%;
+    margin: auto 100px auto 100px;
+    height: 200px;
+}
+
+.split-half h3 {
+    margin-top: 80px !important;
+}
+
+.splitter {
+    display: flex;
 }
 
 footer ul {
