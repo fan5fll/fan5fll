@@ -223,3 +223,12 @@ footer li {
 .text-center{
     text-align: center;
 }
+.(class name) {
+  (other stuff)
+  width: 200px;
+  height: 200px;
+}
+.mat-image {
+  width: 200px;
+  height: 200px;
+}
