@@ -74,6 +74,7 @@ nav li a:hover {
  animation-duration: 1s;
  animation-iteration-count: infinite;
  animation-direction: alternate;
+ animation-timing-function: ease-in-out
 }
 
 @keyframes border-change {
