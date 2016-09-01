@@ -3,6 +3,14 @@ html, body {
     padding: 0;
 }
 
+#toggle-button {
+    background-color: green;
+    color: white;
+}
+
+#toggle-button.off {
+    background-color: red;
+}
 body {
      color: #333;
     font-family: times  , arial, sans-serif;
@@ -50,6 +58,14 @@ nav li a {
 
 nav li a:hover {
     background: #e5e5e5;
+}
+
+nav li a.pdf:hover {
+    background: yellow;
+}
+
+.pdf {
+    color: blue;
 }
 
 #my-name {
