@@ -25,10 +25,18 @@ p {
     text-align: left;
 }
 
+ul {
+    list-style: none;
+}
+.content {
+    padding-top:30px;
+}
 header {
     width: 100%;
     background: #fafafa;
     border-bottom: 2px solid #ccc;
+    position: fixed;
+    z-index: 50;
 }
 
 nav {
@@ -131,6 +139,10 @@ nav li a.pdf:hover {
     height: 100%;
 
 }
+h2 {
+    font-size: 300%;
+    margin: 10px;
+}
 #hero h2 {
     font-size: 400%;
     margin: 10px;
@@ -164,8 +176,7 @@ nav li a.pdf:hover {
 .column img {
     width: 70%;
     max-width:70%;
-    border-radius: 50%;
-    border: 5px solid #57BEC5;
+    border: 5px solid #ffa500;
     margin-bottom: 20px;
 }
 
