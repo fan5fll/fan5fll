@@ -167,6 +167,14 @@ h2 {
     margin: 20px 0;
 }
 
+.bennys_spaceship {
+    margin: 10px 0;
+}
+
+#moomooland {
+    display: none;
+}
+
 .column {
     display: inline-block;
     width: 30%;
