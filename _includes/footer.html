@@ -1,7 +1,11 @@
-		<div id="moomooland"><p>"The Fantastic Five." The Fantastic Five. N.p., n.d. Web. 07 Oct. 2016. <http://fan5fll.com/>.</p></div>
+		<div id="moomooland" class="hidden">
+			<div class='moomooland-container'>
+				<p>"The Fantastic Five." The Fantastic Five. N.p., n.d. Web. 07 Oct. 2016. <http://fan5fll.com/>.</p>
+			</div>
+		</div>
 		<footer>
             <h3>fantastic 5's website!</h3>
-            <button>cite this source</button>
+            <button id="moomooopen">cite this source</button>
             <a target="_blank" href="rdes.pdf" >robot executive design summary</a>
             <a target="_blank" href="rms.pdf" >robot mission summary</a>
             <!-- Start of SimpleHitCounter Code -->
@@ -33,6 +37,14 @@
 	 	handleToggling();
 	});
 	handleToggling();
+	$("#moomooopen").on('click', function(){
+		$("#moomooland").toggleClass("hidden");
+	});
+	// $(document).on("click",function(){
+	// 	if($("#moomooland.hidden").length === 0){
+	// 		$("#moomooland").toggleClass("hidden")
+	// 	}
+	// })
 </script>
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

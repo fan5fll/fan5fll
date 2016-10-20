@@ -172,9 +172,27 @@ h2 {
 }
 
 #moomooland {
-    display: none;
+    position: fixed;
+    left: 0;
+    background-color: transparent;
+    right: 0;
+    text-align: center;
+    top: 195px;
 }
 
+.moomooland-container {
+    padding: 50px;
+    background-color: white;
+    width: 50%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid blue;
+}
+
+.hidden {
+    display: none;
+}
 .column {
     display: inline-block;
     width: 30%;
