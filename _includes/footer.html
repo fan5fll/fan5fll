@@ -1,3 +1,9 @@
+		<div id="modal">
+			<div class='moomooland-container'>
+			<p><a href="/robot.html">Watch Our Robot Game!!</a></p>
+			</div>
+
+		</div>
 		<div id="moomooland" class="hidden">
 			<div class='moomooland-container'>
 				<p>"The Fantastic Five." The Fantastic Five. N.p., n.d. Web. 07 Oct. 2016. <http://fan5fll.com/>.</p>
@@ -37,6 +43,9 @@
 	 	handleToggling();
 	});
 	handleToggling();
+	$("#modal").on('click', function(){
+		$("#modal").toggleClass("hidden");
+	});
 	$("#moomooopen").on('click', function(){
 		$("#moomooland").toggleClass("hidden");
 	});

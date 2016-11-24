@@ -13,7 +13,14 @@ layout: default
 		<section id="main-content">
             <!-- About Me -->
 		 <!-- My Favorite Animals: Images -->
-            <div class="container favorite-things">
+            <div id="DoubleDeckerCouch" class="container favorite-things">
+
+                <h3>our robot game as of 11/23/16</h3>
+
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/2C85Z-pNnfE" frameborder="0" allowfullscreen></iframe>
+                </div>
+                
+                <div class="container favorite-things">
                 <h3>our robot</h3>
                                 
                 <section class="column">
@@ -23,7 +30,14 @@ layout: default
                     <h4>the bottom on our robot. notice the large (drive) motors are inverted, or upside down</h4>
                 </section>
                 </div>
-                
 
 		</div>
         </section>
+        <script type="text/javascript">
+        $(document).ready(function() {
+            console.log("you ready");
+            $('html, body').animate({
+                scrollTop: $("#DoubleDeckerCouch").offset().top
+            }, 2000);
+        });
+        </script>
