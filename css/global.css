@@ -171,7 +171,7 @@ h2 {
     margin: 10px 0;
 }
 
-#moomooland, #modal {
+#moomooland {
     position: fixed;
     left: 0;
     background-color: transparent;
@@ -179,10 +179,7 @@ h2 {
     text-align: center;
     top: 195px;
 }
-#modal div {
-    padding: 100px;
-background: #91ccec url(../images/robomoji.png) no-repeat center left;
-}
+
 .moomooland-container {
     padding: 50px;
     background-color: white;
@@ -192,10 +189,7 @@ background: #91ccec url(../images/robomoji.png) no-repeat center left;
     margin-right: auto;
     border: 3px solid blue;
 }
-#modal a {
-    font-size: 50px;
-    color: #666666;
-}
+
 .hidden {
     display: none;
 }
