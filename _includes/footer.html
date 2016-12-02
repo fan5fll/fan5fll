@@ -1,8 +1,8 @@
 		<div id="modal">
 			<div class='moomooland-container'>
-			<p><a href="/robot.html">Watch Our Robot Game!!</a></p>
+			<button class='button-close'>X</button>
+			<p><a href="/robot.html?modal=false">Watch Our Robot Game!!</a></p>
 			</div>
-
 		</div>
 		<div id="moomooland" class="hidden">
 			<div class='moomooland-container'>
@@ -11,7 +11,6 @@
 		</div>
 		<footer>
             <h3>fantastic 5's website!</h3>
-            <button id="moomooopen">cite this source</button>
             <a target="_blank" href="rdes.pdf" >robot executive design summary</a>
             <a target="_blank" href="rms.pdf" >robot mission summary</a>
             <!-- Start of SimpleHitCounter Code -->
@@ -48,6 +47,12 @@
 	});
 	$("#moomooopen").on('click', function(){
 		$("#moomooland").toggleClass("hidden");
+	});
+	$(document).ready(function(){
+		var showmodal = URI(window.location).hasQuery("modal");
+		if (showmodal) {
+			$("#modal").toggleClass("hidden");
+		};
 	});
 	// $(document).on("click",function(){
 	// 	if($("#moomooland.hidden").length === 0){

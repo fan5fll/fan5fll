@@ -192,6 +192,14 @@ background: #91ccec url(../images/robomoji.png) no-repeat center left;
     margin-right: auto;
     border: 3px solid blue;
 }
+.button-close{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    background-color: transparent;
+    border: 0;
+}
 #modal a {
     font-size: 50px;
     color: #666666;
